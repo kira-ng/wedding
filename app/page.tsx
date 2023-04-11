@@ -1,5 +1,6 @@
 'use client'
 
+import localFont from 'next/font/local'
 import dynamic from 'next/dynamic'
 import { domAnimation } from 'framer-motion'
 // components
@@ -14,6 +15,11 @@ import Story from '@/components/Story'
 import TimeLine from '@/components/TimeLine'
 import LoadingDefault from '@/components/Loading/LoadingDefault'
 
+// Font files can be colocated inside of `pages`
+const myFont = localFont({
+  src: '../public/fonts/AbsoluteBeautyScriptBold.otf',
+})
+
 const LazyMotion = dynamic(
   () => import('framer-motion').then((mod) => mod.LazyMotion),
   {
@@ -25,17 +31,19 @@ const LazyMotion = dynamic(
 const Page = () => {
   // return <LoadingDefault />
   return (
-    <LazyMotion features={domAnimation}>
-      <Header />
-      <EventInfo />
-      <TimeLine />
-      <Story />
-      <Bio />
-      <Album />
-      <SaveTheDate />
-      <Footer />
-      <Donate />
-    </LazyMotion>
+    <div className={myFont.className}>
+      <LazyMotion features={domAnimation}>
+        <Header />
+        <EventInfo />
+        <TimeLine />
+        <Story />
+        <Bio />
+        <Album />
+        <SaveTheDate />
+        <Footer />
+        <Donate />
+      </LazyMotion>
+    </div>
   )
 }
 

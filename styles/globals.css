@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: 'Absolute Beauty Bold';
   src: url(/fonts/AbsoluteBeautyScriptBold.otf);
   font-weight: 700;
   font-display: swap;
-}
+} */
 
 :root {
   --font-1: 'Absolute Beauty Bold';
@@ -43,7 +43,7 @@ body {
   font-family: var(--font-2);
 }
 .font-heading {
-  font-family: var(--font-1);
+  /* font-family: var(--font-1); */
 }
 .font-heading p,
 .font-para p {
