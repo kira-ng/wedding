@@ -1,18 +1,18 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { m } from 'framer-motion'
 import { fadeIn, staggerContainer } from '@/utils/motion'
 import { TypingText } from './Text/TypingText'
 
 const SaveTheDate = () => {
   return (
-    <motion.section
+    <m.section
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       className="t16-rsvp grid place-center"
     >
-      <motion.div
+      <m.div
         variants={fadeIn('up', 'tween', 0, 1)}
         className="container inner-col mx-auto aos-init aos-animate"
       >
@@ -91,8 +91,8 @@ const SaveTheDate = () => {
             </div>
           </form>
         </div>
-      </motion.div>
-    </motion.section>
+      </m.div>
+    </m.section>
   )
 }
 

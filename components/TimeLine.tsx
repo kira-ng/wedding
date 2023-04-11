@@ -1,25 +1,25 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { m } from 'framer-motion'
 import { staggerContainer, fadeIn, fadeInCustom } from '@/utils/motion'
 
 const TimeLine = () => {
   return (
-    <motion.section
+    <m.section
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
       className="t16-events bg-texture grid"
     >
       <div className="container grid place-center">
-        <motion.div
+        <m.div
           variants={fadeIn('up', 'tween', 0, 0.5)}
           className="title color-1 font-para text-center inner-col mx-auto line-height-normal animate__animated animate__fadeInUp animate__slow aos-init aos-animate"
         >
           <p>TIMELINE</p>
-        </motion.div>
+        </m.div>
         <div className="events-wrapper grid items-center relative">
-          <motion.div
+          <m.div
             variants={fadeIn('left', 'tween', 0, 0.4)}
             className="event-point grid aos-init aos-animate"
           >
@@ -38,8 +38,8 @@ const TimeLine = () => {
                 welcome
               </div>
             </div>
-          </motion.div>
-          <motion.div
+          </m.div>
+          <m.div
             variants={fadeIn('left', 'tween', 0, 0.8)}
             className="event-point grid aos-init aos-animate"
           >
@@ -58,8 +58,8 @@ const TimeLine = () => {
                 ceremony
               </div>
             </div>
-          </motion.div>
-          <motion.div
+          </m.div>
+          <m.div
             variants={fadeIn('left', 'tween', 0, 1.2)}
             className="event-point grid aos-init aos-animate"
           >
@@ -78,8 +78,8 @@ const TimeLine = () => {
                 dinner
               </div>
             </div>
-          </motion.div>
-          <motion.div
+          </m.div>
+          <m.div
             variants={fadeInCustom('left', 'tween', 0, 2, 100, 100, 'block')}
             className="event-point grid aos-init aos-animate"
           >
@@ -98,10 +98,10 @@ const TimeLine = () => {
                 after party
               </div>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </div>
-    </motion.section>
+    </m.section>
   )
 }
 

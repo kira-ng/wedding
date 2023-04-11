@@ -1,12 +1,12 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { m } from 'framer-motion'
 import { fadeIn, fadeInCustom, staggerContainer } from '@/utils/motion'
 import { TypingText } from './Text/TypingText'
 
 const Story = () => {
   return (
-    <motion.section
+    <m.section
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
@@ -14,7 +14,7 @@ const Story = () => {
     >
       <div className="overlay absolute"></div>
       <div className="container grid relative collages grid-cols-12">
-        <motion.div
+        <m.div
           variants={fadeIn('right', 'tween', 0, 1)}
           className="image-collage-box relative col-span-5 col-start-2 aos-init aos-animate"
         >
@@ -40,7 +40,7 @@ const Story = () => {
               className="image-fit"
             />
           </div>
-          <motion.div
+          <m.div
             variants={fadeIn('down', 'tween', 0.8, 1)}
             className="vertical-text absolute aos-init aos-animate"
           >
@@ -48,9 +48,9 @@ const Story = () => {
               <p>we are so grateful to be surrounded&nbsp;</p>
               <p>by friends &amp; family on our happiest day.</p>
             </div>
-          </motion.div>
-        </motion.div>
-        <motion.div
+          </m.div>
+        </m.div>
+        <m.div
           variants={fadeInCustom('left', 'tween', 0.4, 1, 100, 100, 'block')}
           className="content-box col-span-4 col-start-8 aos-init aos-animate"
         >
@@ -71,9 +71,9 @@ const Story = () => {
               Lorem Ipsum
             </p>
           </div>
-        </motion.div>
+        </m.div>
       </div>
-    </motion.section>
+    </m.section>
   )
 }
 

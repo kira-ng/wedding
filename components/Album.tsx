@@ -1,12 +1,11 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { m } from 'framer-motion'
 import { fadeInCustom, staggerContainer } from '@/utils/motion'
-import { TypingText } from './Text/TypingText'
 
 const Album = () => {
   return (
-    <motion.section
+    <m.section
       variants={staggerContainer()}
       initial="hidden"
       whileInView="show"
@@ -14,13 +13,13 @@ const Album = () => {
       className="t16-album min-h-screen grid"
     >
       <div className="container">
-        <motion.div
+        <m.div
           variants={fadeInCustom('up', 'tween', 0, 1, 0, 200, 'block')}
           className="title color-1 font-para text-center inner-col mx-auto line-height-normal"
         >
           ALBUM
-        </motion.div>
-        <motion.div
+        </m.div>
+        <m.div
           variants={fadeInCustom('up', 'tween', 0, 1.3, 0, 200, 'grid')}
           className="album-container inner-col mx-auto relative grid grid-cols-10 aos-init aos-animate"
         >
@@ -66,9 +65,9 @@ const Album = () => {
               src="https://image.namtay.vn/fit/600/images/wedsite/9wuWBE6Pqx__TUJ1148.jpeg"
             />
           </div>
-        </motion.div>
+        </m.div>
       </div>
-    </motion.section>
+    </m.section>
   )
 }
 
