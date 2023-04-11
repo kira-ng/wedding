@@ -80,7 +80,7 @@ const TimeLine = () => {
             </div>
           </m.div>
           <m.div
-            variants={fadeInCustom('left', 'tween', 0, 2, 100, 100, 'block')}
+            variants={fadeInCustom('left', 'tween', 0, 2, 100, 100)}
             className="event-point grid aos-init aos-animate"
           >
             <div className="icon-box text-center">

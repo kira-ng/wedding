@@ -29,7 +29,6 @@ const LazyMotion = dynamic(
 )
 
 const Page = () => {
-  // return <LoadingDefault />
   return (
     <div className={myFont.className}>
       <LazyMotion features={domAnimation}>

@@ -51,7 +51,7 @@ const Story = () => {
           </m.div>
         </m.div>
         <m.div
-          variants={fadeInCustom('left', 'tween', 0.4, 1, 100, 100, 'block')}
+          variants={fadeInCustom('left', 'tween', 0.4, 1, 100, 100)}
           className="content-box col-span-4 col-start-8 aos-init aos-animate"
         >
           <div className="story-title color-2 font-heading">

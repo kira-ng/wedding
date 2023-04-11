@@ -14,13 +14,13 @@ const Album = () => {
     >
       <div className="container">
         <m.div
-          variants={fadeInCustom('up', 'tween', 0, 1, 0, 200, 'block')}
+          variants={fadeInCustom('up', 'tween', 0, 1, 0, 200)}
           className="title color-1 font-para text-center inner-col mx-auto line-height-normal"
         >
           ALBUM
         </m.div>
         <m.div
-          variants={fadeInCustom('up', 'tween', 0, 1.3, 0, 200, 'grid')}
+          variants={fadeInCustom('up', 'tween', 0, 1.3, 0, 200)}
           className="album-container inner-col mx-auto relative grid grid-cols-10 aos-init aos-animate"
         >
           <div className="album-item-1 col-span-3">

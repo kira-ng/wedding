@@ -112,20 +112,17 @@ export const fadeInCustom = (
   delay,
   duration,
   x = 100,
-  y = 100,
-  display = 'flex'
+  y = 100
 ) => ({
   hidden: {
     x: direction === 'left' ? x : direction === 'right' ? -x : 0,
     y: direction === 'up' ? y : direction === 'down' ? -y : 0,
     opacity: 0,
-    display: 'none',
   },
   show: {
     x: 0,
     y: 0,
     opacity: 1,
-    display: display,
     transition: {
       type,
       delay,
