@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { fadeInCustom, staggerContainer } from '@/utils/motion'
-import { TypingText } from './text/TypingText'
+import { TypingText } from './Text/TypingText'
 
 const Album = () => {
   return (
