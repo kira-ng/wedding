@@ -30,7 +30,7 @@ const LazyMotion = dynamic(
 
 const Page = () => {
   return (
-    <div className={myFont.className}>
+    <div className={myFont.className + ' overflow-x-hidden'}>
       <LazyMotion features={domAnimation}>
         <Header />
         <EventInfo />
