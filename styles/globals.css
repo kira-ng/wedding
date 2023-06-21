@@ -637,7 +637,7 @@ input[type='radio']:checked:before {
 }
 
 #i9sb {
-  background-image: url('https://image.namtay.vn/fit/1920/images/wedsite/QzqoBf3n0y_tmp.png');
+  background-image: url('/images/top.jpg');
 }
 
 @media (max-width: 1440px) {
