@@ -24,46 +24,22 @@ const Album = () => {
           className="album-container inner-col mx-auto relative grid grid-cols-10 aos-init aos-animate"
         >
           <div className="album-item-1 col-span-3">
-            <img
-              alt=""
-              id="iljeuo"
-              src="https://image.namtay.vn/fit/600/images/wedsite/EwHDDLF1tB__TUJ3926.jpg"
-            />
+            <img alt="" id="iljeuo" src="/images/album-2.jpg" />
           </div>
           <div className="album-item-2 col-span-4">
-            <img
-              alt=""
-              id="i0axml"
-              src="https://image.namtay.vn/fit/600/images/wedsite/UONP8bcTUO__TUJ1232.jpeg"
-            />
+            <img alt="" id="i0axml" src="/images/album-1.jpg" />
           </div>
           <div className="album-item-3 col-span-3">
-            <img
-              alt=""
-              id="ilza9c"
-              src="https://image.namtay.vn/fit/600/images/wedsite/Mz8X6ry75X__TUJ3841.jpg"
-            />
+            <img alt="" id="ilza9c" src="/images/album-3.jpg" />
           </div>
           <div className="album-item-4 col-span-3">
-            <img
-              alt=""
-              id="isx5vi"
-              src="https://image.namtay.vn/fit/600/images/wedsite/sNfZLuLvlv__TUJ0002.jpeg"
-            />
+            <img alt="" id="isx5vi" src="/images/album-5.jpg" />
           </div>
           <div className="album-item-5 col-span-5">
-            <img
-              alt=""
-              id="igtedi"
-              src="https://image.namtay.vn/fit/600/images/wedsite/K7tJjbfhOo__TUJ4157.jpg"
-            />
+            <img alt="" id="igtedi" src="/images/album-4.jpg" />
           </div>
           <div className="album-item-6 col-span-4">
-            <img
-              alt=""
-              id="ijw7v2"
-              src="https://image.namtay.vn/fit/600/images/wedsite/9wuWBE6Pqx__TUJ1148.jpeg"
-            />
+            <img alt="" id="ijw7v2" src="/images/album-6.jpg" />
           </div>
         </m.div>
       </div>

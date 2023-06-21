@@ -40,7 +40,7 @@ const Bio = () => {
             <div className="img-box col-start-8 col-span-3">
               <m.img
                 variants={fadeIn('right', 'tween', 0, 1.5)}
-                src="https://image.namtay.vn/fit/550/images/wedsite/J7AJTPCjLc_tmp.png"
+                src="/images/bio-1.jpg"
                 className="max-w-full groom-img relative aos-init aos-animate"
               />
             </div>
