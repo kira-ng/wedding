@@ -10,6 +10,7 @@
   --font-2: 'Lexend Deca', sans-serif;
   --color-1: #465a3d;
   --color-2: #f0e2d3;
+  --color-3: #f0e2d3;
 }
 
 * {
@@ -51,6 +52,9 @@ body {
 }
 .color-2 {
   color: var(--color-2);
+}
+.color-3 {
+  color: var(--color-3);
 }
 .container {
   position: relative;
@@ -112,7 +116,7 @@ body {
 }
 .bg-texture {
   background-color: #fff;
-  background-image: url('https://static.namtay.vn/assets/img/theme16/paper-texture.png');
+  background-image: url('/images/theme/paper-texture.png');
   background-blend-mode: multiply;
   background-repeat: repeat;
 }
@@ -201,12 +205,11 @@ body {
   width: 45px !important;
 }
 .t16-intro {
-  background-image: url('https://static.namtay.vn/assets/img/theme16/intro-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .t16-intro .container {
-  top: -210px;
+  /* top: -210px; */
 }
 .ml5 .letters {
   display: inline-block;
@@ -338,7 +341,7 @@ body {
   grid-template-columns: repeat(3, minmax(350px, 1fr));
 }
 .t16-story {
-  background-image: url('https://static.namtay.vn/assets/img/theme16/forest-bg.png');
+  background-image: url('/images/theme/forest-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 140px;
@@ -438,8 +441,8 @@ body {
 }
 .t16-bio .lower-part {
   background-color: #445a3d;
-  background-image: url('https://static.namtay.vn/assets/img/theme16/paper-texture.png'),
-    url('https://static.namtay.vn/assets/img/theme16/forest-stroke-bg.png');
+  background-image: url('/images/theme/paper-texture.png'),
+    url('/images/theme/forest-stroke-bg.png');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
   background-position: center, bottom;
@@ -471,8 +474,8 @@ body {
 }
 .t16-album {
   background-color: #fff;
-  background-image: url('https://static.namtay.vn/assets/img/theme16/paper-texture.png'),
-    url('https://static.namtay.vn/assets/img/theme16/forest-stroke-pond.png');
+  background-image: url('/images/theme/paper-texture.png'),
+    url('/images/theme/forest-stroke-pond.png');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
   background-position: center, bottom;
@@ -521,8 +524,8 @@ body {
 .t16-rsvp {
   padding: 90px 90px 130px;
   background-color: #fff;
-  background-image: url('https://static.namtay.vn/assets/img/theme16/paper-texture.png'),
-    url('https://static.namtay.vn/assets/img/theme16/mountain-stroke-w.png');
+  background-image: url('/images/theme/paper-texture.png'),
+    url('/images/theme/mountain-stroke-w.png');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
   background-position: center, bottom;
@@ -582,7 +585,7 @@ input[type='radio']:after {
   border: 1px solid #000;
 }
 input[type='radio']:checked:before {
-  content: url('https://static.namtay.vn/assets/img/theme14/check-mark.png');
+  content: url('/images/theme/check-mark.png');
   width: 30px;
   height: 30px;
   top: -26px;

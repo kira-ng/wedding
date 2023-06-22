@@ -25,7 +25,7 @@ const TimeLine = () => {
           >
             <div className="icon-box text-center">
               <img
-                src="https://static.namtay.vn/assets/img/theme16/gate.png"
+                src="/images/theme/gate.png"
                 alt=""
                 className="event-icons"
               />
@@ -45,7 +45,7 @@ const TimeLine = () => {
           >
             <div className="icon-box text-center">
               <img
-                src="https://static.namtay.vn/assets/img/theme16/ring-2.png"
+                src="/images/theme/ring-2.png"
                 alt=""
                 className="event-icons"
               />
@@ -65,7 +65,7 @@ const TimeLine = () => {
           >
             <div className="icon-box text-center">
               <img
-                src="https://static.namtay.vn/assets/img/theme16/plate-2.png"
+                src="/images/theme/plate-2.png"
                 alt=""
                 className="event-icons"
               />
@@ -85,7 +85,7 @@ const TimeLine = () => {
           >
             <div className="icon-box text-center">
               <img
-                src="https://static.namtay.vn/assets/img/theme16/firework-2.png"
+                src="/images/theme/firework-2.png"
                 alt=""
                 className="event-icons"
               />

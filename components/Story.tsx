@@ -19,24 +19,16 @@ const Story = () => {
           className="image-collage-box relative col-span-5 col-start-2 aos-init aos-animate"
         >
           <div className="relative collage-1 absolute">
-            <img
-              alt=""
-              src="https://image.namtay.vn/fit/550/images/wedsite/fZaXfmC86u__TUJ4159.jpg"
-              className="image-fit"
-            />
+            <img alt="" src="/images/story-1.jpg" className="image-fit" />
           </div>
           <div className="relative collage-2 absolute">
-            <img
-              alt=""
-              src="https://image.namtay.vn/fit/550/images/wedsite/sNfZLuLvlv__TUJ0002.jpeg"
-              className="image-fit"
-            />
+            <img alt="" src="/images/story-2.jpg" className="image-fit" />
           </div>
           <div className="relative collage-3 absolute">
             <img
               id="image-clip"
               alt=""
-              src="https://image.namtay.vn/fit/550/images/wedsite/1ZdGmo9BwB_tmp.png"
+              src="/images/story-3.jpg"
               className="image-fit"
             />
           </div>

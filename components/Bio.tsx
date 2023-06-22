@@ -47,7 +47,7 @@ const Bio = () => {
           </div>
           <div className="col-span-12">
             <img
-              src="https://static.namtay.vn/assets/img/theme16/paper-scratch.png"
+              src="/images/theme/paper-scratch.png"
               alt=""
               className="img-paper-scratch relative"
             />
@@ -63,7 +63,7 @@ const Bio = () => {
             <div className="img-box col-start-2 col-span-3">
               <m.img
                 variants={fadeIn('left', 'tween', 0, 1.5)}
-                src="https://image.namtay.vn/fit/550/images/wedsite/lt8ByvAu1F_IMG_0959.JPG"
+                src="/images/bio-2.jpg"
                 className="max-w-full bride-img relative aos-init aos-animate"
               />
             </div>

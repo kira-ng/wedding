@@ -12,13 +12,10 @@ const Donate = () => {
               <img
                 id="nt-sticky-outer"
                 alt=""
-                src="https://static.namtay.vn/assets/img/theme16/sticky-outer.png"
+                src="/images/theme/sticky-outer.png"
               />
               <div id="nt-sticky-inner">
-                <img
-                  src="https://static.namtay.vn/assets/img/theme16/sticky-inner.png"
-                  alt=""
-                />
+                <img src="/images/theme/sticky-inner.png" alt="" />
               </div>
             </div>
           </a>
