@@ -14,7 +14,7 @@ const SaveTheDate = () => {
     >
       <m.div
         variants={fadeIn('up', 'tween', 0, 1)}
-        className="container inner-col mx-auto aos-init aos-animate"
+        className="container inner-col mx-auto"
       >
         <div className="t16-rsvp-content asking-txt parent-fr flex flex-col text-center items-center">
           <div className="question color-1 font-para">
@@ -24,7 +24,7 @@ const SaveTheDate = () => {
             <p>
               Đám cưới sẽ&nbsp;trọn vẹn &amp; ý nghĩa&nbsp;hơn khi có sự hiện
               diện &amp; chúc phúc của bạn.&nbsp;Hãy xác nhận sự có mặt của mình
-              để Ly &amp; Đức Anh&nbsp;chuẩn bị đón tiếp chu đáo nhất nha!&nbsp;
+              để Tuấn &amp; Quỳnh&nbsp;chuẩn bị đón tiếp chu đáo nhất nha!&nbsp;
             </p>
             <p>&nbsp;</p>
             <p>(Bạn có thể nhấn bỏ qua phần quà mừng tại đây). Thân&nbsp;💛</p>

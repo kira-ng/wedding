@@ -3,6 +3,13 @@
 import { m } from 'framer-motion'
 import { fadeIn, staggerContainer } from '@/utils/motion'
 import { TypingText } from './Text/TypingText'
+import Image from 'next/image'
+
+// Image loading
+import bio_1 from '../public/images/bio-1.jpg'
+import bio_2 from '../public/images/bio-2.jpg'
+import paper_texture from '../public/images/theme/paper-texture.jpg'
+import paper_scratch from '../public/images/theme/paper-scratch.jpg'
 
 const Bio = () => {
   return (
@@ -12,12 +19,19 @@ const Bio = () => {
           variants={staggerContainer()}
           initial="hidden"
           whileInView="show"
-          className="upper-part bg-texture"
+          className="upper-part relative"
         >
+          <Image
+            src={paper_texture}
+            alt=""
+            placeholder="blur"
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
+          />
           <div className="main-content grid grid-cols-12 relative">
             <m.div
               variants={fadeIn('left', 'tween', 0, 1.5)}
-              className="content-box col-start-2 col-span-5 aos-init aos-animate"
+              className="content-box col-start-2 col-span-5"
             >
               <div className="story-title color-1 font-heading">
                 <TypingText title="Nguyen Anh &nbsp;Tuan" />
@@ -38,18 +52,30 @@ const Bio = () => {
               </div>
             </m.div>
             <div className="img-box col-start-8 col-span-3">
-              <m.img
-                variants={fadeIn('right', 'tween', 0, 1.5)}
-                src="/images/bio-1.jpg"
-                className="max-w-full groom-img relative aos-init aos-animate"
-              />
+              <m.div variants={fadeIn('right', 'tween', 0, 1.5)}>
+                <Image
+                  src={bio_1}
+                  alt=""
+                  placeholder="blur"
+                  style={{
+                    position: 'relative',
+                    maxWidth: '100%',
+                    height: '100%',
+                    zIndex: 2,
+                  }}
+                />
+              </m.div>
             </div>
           </div>
           <div className="col-span-12">
-            <img
-              src="/images/theme/paper-scratch.png"
+            <Image
+              src={paper_scratch}
               alt=""
-              className="img-paper-scratch relative"
+              style={{
+                position: 'relative',
+                marginBottom: '-10px',
+                zIndex: 0,
+              }}
             />
           </div>
         </m.div>
@@ -61,15 +87,28 @@ const Bio = () => {
         >
           <div className="main-content grid grid-cols-12 relative">
             <div className="img-box col-start-2 col-span-3">
-              <m.img
+              <m.div variants={fadeIn('left', 'tween', 0, 1.5)}>
+                <Image
+                  src={bio_2}
+                  alt=""
+                  placeholder="blur"
+                  style={{
+                    position: 'relative',
+                    maxWidth: '100%',
+                    height: '100%',
+                    zIndex: 2,
+                  }}
+                />
+              </m.div>
+              {/* <m.img
                 variants={fadeIn('left', 'tween', 0, 1.5)}
                 src="/images/bio-2.jpg"
-                className="max-w-full bride-img relative aos-init aos-animate"
-              />
+                className="max-w-full bride-img relative"
+              /> */}
             </div>
             <m.div
               variants={fadeIn('right', 'tween', 0, 1.5)}
-              className="content-box col-start-7 col-span-4 aos-init aos-animate"
+              className="content-box col-start-7 col-span-4"
             >
               <div className="story-title color-2 font-heading">
                 <TypingText title="Vu Thi Quynh" />

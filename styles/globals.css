@@ -116,7 +116,7 @@ body {
 }
 .bg-texture {
   background-color: #fff;
-  background-image: url('/images/theme/paper-texture.png');
+  background-image: url('/images/theme/paper-texture.jpg');
   background-blend-mode: multiply;
   background-repeat: repeat;
 }
@@ -341,9 +341,9 @@ body {
   grid-template-columns: repeat(3, minmax(350px, 1fr));
 }
 .t16-story {
-  background-image: url('/images/theme/forest-bg.png');
+  /* background-image: url('/images/theme/forest-bg.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding: 0 140px;
 }
 .overlay {
@@ -380,6 +380,7 @@ body {
   position: relative;
 }
 .collage-2 {
+  width: 100%;
   max-width: 48.8%;
   max-height: 400px;
   clip-path: polygon(
@@ -394,6 +395,7 @@ body {
   top: 6%;
 }
 .collage-3 {
+  width: 100%;
   max-width: 44%;
   max-height: 350px;
   left: 47%;
@@ -441,7 +443,7 @@ body {
 }
 .t16-bio .lower-part {
   background-color: #445a3d;
-  background-image: url('/images/theme/paper-texture.png'),
+  background-image: url('/images/theme/paper-texture.jpg'),
     url('/images/theme/forest-stroke-bg.png');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
@@ -474,8 +476,8 @@ body {
 }
 .t16-album {
   background-color: #fff;
-  background-image: url('/images/theme/paper-texture.png'),
-    url('/images/theme/forest-stroke-pond.png');
+  background-image: url('/images/theme/paper-texture.jpg'),
+    url('/images/theme/forest-stroke-pond.jpg');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
   background-position: center, bottom;
@@ -524,7 +526,7 @@ body {
 .t16-rsvp {
   padding: 90px 90px 130px;
   background-color: #fff;
-  background-image: url('/images/theme/paper-texture.png'),
+  background-image: url('/images/theme/paper-texture.jpg'),
     url('/images/theme/mountain-stroke-w.png');
   background-blend-mode: multiply, normal;
   background-repeat: repeat, no-repeat;
@@ -641,7 +643,7 @@ input[type='radio']:checked:before {
 
 #i9sb {
   background-position: top;
-  background-image: url('/images/top.jpg');
+  /* background-image: url('/images/top.jpg'); */
 }
 
 @media (max-width: 1440px) {

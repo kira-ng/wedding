@@ -2,6 +2,10 @@
 
 import { m } from 'framer-motion'
 import { fadeIn, fadeInCustom, staggerContainer } from '@/utils/motion'
+import Image from 'next/image'
+
+// Image loading
+import top from '../public/images/top.jpg'
 
 const Header = () => {
   return (
@@ -13,6 +17,14 @@ const Header = () => {
       id="i9sb"
       className="t16-intro min-h-screen grid place-center"
     >
+      <Image
+        src={top}
+        alt=""
+        placeholder="blur"
+        fill
+        priority={true}
+        style={{ objectFit: 'cover', objectPosition: 'top' }}
+      />
       <div className="container grid place-center">
         <m.div
           variants={fadeInCustom('up', 'tween', 0, 2, 0, 250)}
