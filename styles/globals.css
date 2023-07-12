@@ -8,6 +8,7 @@
 :root {
   --font-1: 'Absolute Beauty Bold';
   --font-2: 'Lexend Deca', sans-serif;
+  --font-3: 'Oooh Baby', cursive;
   --color-1: #465a3d;
   --color-2: #f0e2d3;
   --color-3: #f0e2d3;
@@ -32,6 +33,9 @@ body {
 
 .font-para {
   font-family: var(--font-2);
+}
+.font-oooh-baby {
+  font-family: var(--font-3);
 }
 .font-heading {
   /* font-family: var(--font-1); */
@@ -243,13 +247,32 @@ body {
   opacity: 1;
 }
 .t16-event-info {
-  padding: 90px;
+  padding: 90px 90px 40px 90px;
+}
+.guest-title {
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.guest-name {
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.guest-subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  opacity: 0.7;
 }
 .date {
   font-weight: 300;
   font-size: 24px;
   letter-spacing: 2px;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .datetime {
   font-weight: 500;
@@ -270,7 +293,7 @@ body {
   margin-bottom: 3rem;
 }
 .events-wrapper {
-  grid-template-columns: repeat(4, minmax(350px, 1fr));
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
 }
 .events-wrapper::before {
   content: '';
@@ -335,7 +358,7 @@ body {
 }
 .event-title {
   font-weight: 500;
-  font-size: 96px;
+  font-size: 30px;
 }
 .t16-event-2 .events-wrapper {
   grid-template-columns: repeat(3, minmax(350px, 1fr));
@@ -719,7 +742,7 @@ input[type='radio']:checked:before {
     padding: 50px;
   }
   .event-title {
-    font-size: 75px;
+    font-size: 30px;
   }
   .event-point::before {
     height: 25px;
@@ -806,6 +829,12 @@ input[type='radio']:checked:before {
   .t16-events {
     padding: 0 50px 50px;
   }
+  .guest-title {
+    font-size: 20px;
+  }
+  .guest-subtitle {
+    font-size: 16px;
+  }
   .date {
     font-size: 20px;
   }
@@ -866,7 +895,7 @@ input[type='radio']:checked:before {
     font-weight: 300;
   }
   .event-title {
-    font-size: 70px;
+    font-size: 25px;
     line-height: 1.2;
     font-weight: 400;
   }
@@ -989,6 +1018,12 @@ input[type='radio']:checked:before {
   .place.event-place {
     font-size: 1rem;
   }
+  .guest-title {
+    font-size: 1rem;
+  }
+  .guest-subtitle {
+    font-size: 1rem;
+  }
   .date {
     font-size: 1rem;
   }
@@ -1053,7 +1088,7 @@ input[type='radio']:checked:before {
     font-weight: 300;
   }
   .event-title {
-    font-size: 60px;
+    font-size: 25px;
     line-height: 1.2;
     font-weight: 400;
   }

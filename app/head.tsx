@@ -9,6 +9,10 @@ const Head = () => {
         href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500&amp;display=swap"
         rel="stylesheet"
       />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap"
+        rel="stylesheet"
+      />
     </>
   )
 }

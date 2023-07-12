@@ -38,18 +38,6 @@ const SaveTheDate = () => {
               </label>
               <input type="text" id="name" required className="font-para" />
             </div>
-            <div className="form-control grid">
-              <label htmlFor="tel" className="form-label font-para color-1">
-                Số điện thoại
-              </label>
-              <input
-                type="tel"
-                id="tel"
-                pattern="(84|0[3|5|7|8|9])+([0-9]{8})\b"
-                required
-                className="font-para"
-              />
-            </div>
             <div className="form-question">
               <div className="btn-wrap flex items-center justify-between">
                 <div className="btn-box">

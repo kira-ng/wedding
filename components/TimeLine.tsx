@@ -39,14 +39,14 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={gateIcon} alt="" />
+              <Image src={fireworkIcon} alt="" />
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
-                <p>15:30 PM</p>
+                <p>9:45 AM</p>
               </div>
-              <div className="event-title font-heading color-1 text-center">
-                welcome
+              <div className="event-title font-heading color-1 text-center font-oooh-baby">
+                Rước dâu
               </div>
             </div>
           </m.div>
@@ -55,14 +55,14 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={ringIcon} alt="" />
+              <Image src={gateIcon} alt="" />
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
-                <p>16:00 PM</p>
+                <p>11:00 AM</p>
               </div>
-              <div className="event-title font-heading color-1 text-center">
-                ceremony
+              <div className="event-title font-heading color-1 text-center font-oooh-baby">
+                Đón khách
               </div>
             </div>
           </m.div>
@@ -71,14 +71,14 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={plateIcon} alt="" />
+              <Image src={ringIcon} alt="" />
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
-                <p>18:00 PM</p>
+                <p>11:30 AM</p>
               </div>
-              <div className="event-title font-heading color-1 text-center">
-                dinner
+              <div className="event-title font-heading color-1 text-center font-oooh-baby">
+                Làm lễ
               </div>
             </div>
           </m.div>
@@ -87,14 +87,14 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={fireworkIcon} alt="" />
+              <Image src={plateIcon} alt="" />
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
-                <p>21:00 PM</p>
+                <p>11:45 AM</p>
               </div>
-              <div className="event-title font-heading color-1 text-center">
-                after party
+              <div className="event-title font-heading color-1 text-center font-oooh-baby">
+                Khai tiệc
               </div>
             </div>
           </m.div>
