@@ -4,7 +4,7 @@ import Image from 'next/image'
 import paper_texture from '../public/images/theme/paper-texture.jpg'
 
 type Props = {
-  data: any
+  data?: any
 }
 
 const EventInfo = ({ data }: Props) => {
@@ -20,18 +20,22 @@ const EventInfo = ({ data }: Props) => {
         style={{ objectFit: 'cover', objectPosition: 'center' }}
       />
       <div className="container grid place-center">
-        <div className="guest-title inner-col text-center mx-auto font-para color-1 line-height-normal">
-          TRÂN TRỌNG KÍNH MỜI
-        </div>
-        <div className="guest-name inner-col text-center mx-auto font-oooh-baby color-1 line-height-normal">
-          {data && <> {data.to + ' ' + data.name} </>}
-        </div>
-        <div className="guest-subtitle inner-col text-center mx-auto font-para color-1 line-height-normal">
-          Tới dự bữa tiệc chung vui cùng gia đình chúng tôi
-        </div>
-        <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
-          --------------------------
-        </div>
+        {data && (
+          <>
+            <div className="guest-title inner-col text-center mx-auto font-para color-1 line-height-normal">
+              TRÂN TRỌNG KÍNH MỜI
+            </div>
+            <div className="guest-name inner-col text-center mx-auto font-oooh-baby color-1 line-height-normal">
+              {data.to + ' ' + data.name}
+            </div>
+            <div className="guest-subtitle inner-col text-center mx-auto font-para color-1 line-height-normal">
+              Tới dự bữa tiệc chung vui cùng gia đình chúng tôi
+            </div>
+            <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
+              --------------------------
+            </div>
+          </>
+        )}
         <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
           THỨ BẢY
         </div>
