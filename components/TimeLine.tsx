@@ -39,7 +39,7 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={fireworkIcon} alt="" />
+              <Image src={fireworkIcon} alt="" width={94} height={94}/>
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
@@ -55,7 +55,7 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={gateIcon} alt="" />
+              <Image src={gateIcon} alt="" width={94} height={94}/>
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
@@ -71,7 +71,7 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={ringIcon} alt="" />
+              <Image src={ringIcon} alt="" width={94} height={94}/>
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">
@@ -87,7 +87,7 @@ const TimeLine = () => {
             className="event-point grid"
           >
             <div className="icon-box text-center">
-              <Image src={plateIcon} alt="" />
+              <Image src={plateIcon} alt="" width={94} height={94}/>
             </div>
             <div className="content-box">
               <div className="time font-para color-1 line-height-normal text-center">

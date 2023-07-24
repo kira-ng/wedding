@@ -11,7 +11,7 @@
   --font-3: 'Oooh Baby', cursive;
   --color-1: #465a3d;
   --color-2: #f0e2d3;
-  --color-3: #FF8B0F;
+  --color-3: #fbbd7b;
 }
 
 * {
@@ -213,7 +213,7 @@ body {
   background-repeat: no-repeat;
 }
 .t16-intro .container {
-  top: 120px;
+  top: 220px;
 }
 .ml5 .letters {
   display: inline-block;
@@ -982,7 +982,7 @@ input[type='radio']:checked:before {
 }
 @media only screen and (max-width: 672px) {
   .t16-intro .container {
-    top: unset;
+    top: 100px;
   }
   .flex-col-bm {
     flex-direction: column;

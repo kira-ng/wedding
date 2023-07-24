@@ -75,10 +75,10 @@ const Story = () => {
           </div>
           <div className="story-content color-2 font-para line-height-normal">
             <p>
-              Từ những ngày ở Nhật, tôi đã bắt đầu để ý đến em từ rất lâu qua mạng xã hội.
+              Tôi đã bắt đầu để ý đến em từ rất lâu qua mạng xã hội.
               <br />
-              Nhưng không đủ tự tin, chỉ dám âm thầm theo dõi em từ xa và
-              gửi tim qua các story.
+              Nhưng không đủ tự tin, chỉ dám âm thầm theo dõi em từ xa,
+              gửi ❤️‍🔥 qua các story.
               <br />
               Đến năm 2022, khi trở về nước, tôi quyết tâm bật &quot;định vị&quot; và đi
               tìm em.

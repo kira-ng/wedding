@@ -115,18 +115,17 @@ const Bio = () => {
               </div>
               <div className="story-content color-2 font-para line-height-normal">
                 <p>
-                  Năm ngoái mình đang tận hưởng cuộc sống độc thân một cách tự
-                  do. Nhưng số phận đã dành cho mình một điều không thể ngờ tới
-                  - một người đàn ông xuất hiện và bắt đầu theo đuổi mình bằng
-                  chân thành, không chỉ qua lời nói mà còn qua những hành động ,
+                  Khi mình đang tận hưởng cuộc sống độc thân một cách tự do.
+                  Nhưng số phận đã dành cho mình một điều không thể ngờ tới -
+                  một người đàn ông xuất hiện và bắt đầu theo đuổi mình bằng sự
+                  chân thành không chỉ qua lời nói mà còn qua những hành động ,
                   cử chỉ đầy ý nghĩa.
                   <br />
                   <br />
-                  Anh là một người đàn ông đặc biệt sự chân thành, chung thuỷ và
-                  quan tâm vô điều kiện từ anh đã khiến mình tin rằng, tình yêu
-                  thực sự vẫn tồn tại trong thế giới đầy biến đổi. Người đã
-                  khiến mình bẻ lái mục tiêu 2 năm nữa mới kết hôn và quyết định
-                  đón nhận hạnh phúc hôn nhân sớm hơn dự kiến ^^
+                  Anh là một người đàn ông đặc biệt, sự chân thành, quan tâm vô
+                  điều kiện. Người đã khiến mình bẻ lái mục tiêu 2 năm nữa mới
+                  kết hôn và quyết định đón nhận hạnh phúc hôn nhân sớm hơn dự
+                  kiến ^^
                 </p>
               </div>
             </m.div>

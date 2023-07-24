@@ -17,7 +17,7 @@ const SaveTheDate = () => {
         className="container inner-col mx-auto"
       >
         <div className="t16-rsvp-content asking-txt parent-fr flex flex-col text-center items-center">
-          <div className="question color-1 font-para">
+          <div className="question color-1 font-oooh-baby">
             <p>
               Sự hiện diện của Quý Khách
               <br/>
