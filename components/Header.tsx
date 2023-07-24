@@ -23,7 +23,7 @@ const Header = () => {
         placeholder="blur"
         fill
         priority={true}
-        style={{ objectFit: 'cover', objectPosition: 'top' }}
+        style={{ objectFit: 'cover', objectPosition: 'top', minHeight: '100vh' }}
       />
       <div className="container grid place-center">
         <m.div
