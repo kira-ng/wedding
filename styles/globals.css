@@ -9,9 +9,9 @@
   --font-1: 'Absolute Beauty Bold';
   --font-2: 'Lexend Deca', sans-serif;
   --font-3: 'Oooh Baby', cursive;
-  --color-1: #007a81;
+  --color-1: #465a3d;
   --color-2: #f0e2d3;
-  --color-3: #007a81;
+  --color-3: #FF8B0F;
 }
 
 * {
@@ -29,10 +29,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.text-shadow {
-  text-shadow: 1px 1px 3px white;
 }
 
 .font-para {
@@ -469,7 +465,7 @@ body {
   padding-bottom: 180px;
 }
 .t16-bio .lower-part {
-  background-color: #007a81;
+  background-color: #445a3d;
   background-image: url('/images/theme/paper-texture.jpg'),
     url('/images/theme/forest-stroke-bg.png');
   background-blend-mode: multiply, normal;
@@ -1160,7 +1156,7 @@ input[type='radio']:checked:before {
     padding: 0 20px;
   }
   .t16-bio .lower-part {
-    background-color: #007a81;
+    background-color: #445a3d;
     background-image: unset;
     background-position: center;
   }
