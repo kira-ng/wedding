@@ -39,13 +39,15 @@ const Bio = () => {
               <div className="story-content color-1 font-para line-height-normal">
                 <p>
                   Tôi hiện đang làm việc trong lĩnh vực công nghệ, một lĩnh vực
-                  khá khô khan và thực tế. 
-                  <br/>
-                  Trong khi đó, vợ tôi lại là một người
-                  hoàn toàn trái ngược ân cần, ấm áp, luôn quan tâm và sẵn
-                  lòng lắng nghe.
-                  <br/>
+                  khá khô khan và thực tế.
+                  <br />
+                  <br />
+                  Trong khi đó, vợ tôi lại là một người hoàn toàn trái ngược ân
+                  cần, ấm áp, luôn quan tâm và sẵn lòng lắng nghe.
+                  <br />
+                  <br />
                   Chính vậy, những trái dấu này lại hút nhau vô cùng!
+                  <br />
                 </p>
               </div>
             </m.div>
@@ -113,16 +115,18 @@ const Bio = () => {
               </div>
               <div className="story-content color-2 font-para line-height-normal">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum
+                  Năm ngoái mình đang tận hưởng cuộc sống độc thân một cách tự
+                  do. Nhưng số phận đã dành cho mình một điều không thể ngờ tới
+                  - một người đàn ông xuất hiện và bắt đầu theo đuổi mình bằng
+                  chân thành, không chỉ qua lời nói mà còn qua những hành động ,
+                  cử chỉ đầy ý nghĩa.
+                  <br />
+                  <br />
+                  Anh là một người đàn ông đặc biệt sự chân thành, chung thuỷ và
+                  quan tâm vô điều kiện từ anh đã khiến mình tin rằng, tình yêu
+                  thực sự vẫn tồn tại trong thế giới đầy biến đổi. Người đã
+                  khiến mình bẻ lái mục tiêu 2 năm nữa mới kết hôn và quyết định
+                  đón nhận hạnh phúc hôn nhân sớm hơn dự kiến ^^
                 </p>
               </div>
             </m.div>
