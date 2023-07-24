@@ -31,24 +31,24 @@ const Header = () => {
           className="flex font-heading name-wrapper ml5 flex-col-bm items-baseline justify-center-mb text-center-mb"
         >
           <div className="name font-inherit color-3 letters-left">
-            <p>Anh &nbsp;Tuan</p>
+            <p className='text-shadow'>Anh &nbsp;Tuan</p>
           </div>
           <div>
             <img
               src="/images/ampersand.png"
               alt=""
-              className="ampersand color-3"
+              className="ampersand color-3 text-shadow"
             />
           </div>
           <div className="name font-inherit color-3 letters-right">
-            <p>Vu Quynh</p>
+            <p className='text-shadow'>Vu Quynh</p>
           </div>
         </m.div>
         <m.div
           variants={fadeIn('up', 'tween', 0, 1)}
           className="event-time font-para color-3 text-center inner-col mx-auto"
         >
-          <p>12 . 08 . 2023</p>
+          <p className='text-shadow'>12 . 08 . 2023</p>
         </m.div>
       </div>
     </m.section>

@@ -9,7 +9,7 @@ import Image from 'next/image'
 import story_1 from '../public/images/story-1.jpg'
 import story_2 from '../public/images/story-2.jpg'
 import story_3 from '../public/images/story-3.jpg'
-import forest_bg from '../public/images/theme/forest-bg.jpg'
+import forest_bg from '../public/images/theme/forest-bg-2.jpg'
 
 const Story = () => {
   return (
