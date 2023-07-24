@@ -18,9 +18,13 @@ const SaveTheDate = () => {
       >
         <div className="t16-rsvp-content asking-txt parent-fr flex flex-col text-center items-center">
           <div className="question color-1 font-para">
-            <p>SAVE THE DATE</p>
+            <p>
+              Sự hiện diện của Quý Khách
+              <br/>
+              là niềm vinh hạnh cho gia đình chúng tôi!
+            </p>
           </div>
-          <div className="explain color-1 font-para inner-col text-center">
+          {/* <div className="explain color-1 font-para inner-col text-center">
             <p>
               Đám cưới sẽ&nbsp;trọn vẹn &amp; ý nghĩa&nbsp;hơn khi có sự hiện
               diện &amp; chúc phúc của bạn.&nbsp;Hãy xác nhận sự có mặt của mình
@@ -28,9 +32,9 @@ const SaveTheDate = () => {
             </p>
             <p>&nbsp;</p>
             <p>(Bạn có thể nhấn bỏ qua phần quà mừng tại đây). Thân&nbsp;💛</p>
-          </div>
+          </div> */}
         </div>
-        <div className="form-wr">
+        {/* <div className="form-wr">
           <form method="post" className="form inner-col">
             <div className="form-control grid">
               <label htmlFor="name" className="form-label font-para color-1">
@@ -78,7 +82,7 @@ const SaveTheDate = () => {
               <button className="form-submit font-para">Phản hồi</button>
             </div>
           </form>
-        </div>
+        </div> */}
       </m.div>
     </m.section>
   )

@@ -75,16 +75,16 @@ const Story = () => {
           </div>
           <div className="story-content color-2 font-para line-height-normal">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum
+              Từ những ngày ở Nhật, tôi đã bắt đầu để ý đến em từ rất lâu qua mạng xã hội.
+              <br />
+              Nhưng không đủ tự tin, chỉ dám âm thầm theo dõi em từ xa và
+              gửi tim qua các story.
+              <br />
+              Đến năm 2022, khi trở về nước, tôi quyết tâm bật &quot;định vị&quot; và đi
+              tìm em.
+              <br />
+              <br />
+              Có thể nói, chuyện gì đến rồi cũng sẽ đến =)))
             </p>
           </div>
         </m.div>

@@ -11,7 +11,7 @@
   --font-3: 'Oooh Baby', cursive;
   --color-1: #465a3d;
   --color-2: #f0e2d3;
-  --color-3: #f0e2d3;
+  --color-3: #FF8B0F;
 }
 
 * {
@@ -213,7 +213,7 @@ body {
   background-repeat: no-repeat;
 }
 .t16-intro .container {
-  /* top: -210px; */
+  top: 120px;
 }
 .ml5 .letters {
   display: inline-block;
@@ -997,7 +997,7 @@ input[type='radio']:checked:before {
     font-weight: 400;
   }
   .event-time {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
   }
   .name {

@@ -40,7 +40,7 @@ const Page = () => {
         <Album />
         <SaveTheDate />
         <Footer />
-        <Donate />
+        {/* <Donate /> */}
       </LazyMotion>
     </div>
   )
