@@ -38,11 +38,11 @@ const Bio = () => {
               </div>
               <div className="story-content color-1 font-para line-height-normal">
                 <p>
-                  Tôi hiện đang làm việc trong lĩnh vực công nghệ, một lĩnh vực
+                  Mình hiện đang làm việc trong lĩnh vực công nghệ, một lĩnh vực
                   khá khô khan và thực tế.
                   <br />
                   <br />
-                  Trong khi đó, vợ tôi lại là một người hoàn toàn trái ngược ân
+                  Trong khi đó, vợ mình lại là một người hoàn toàn trái ngược ân
                   cần, ấm áp, luôn quan tâm và sẵn lòng lắng nghe.
                   <br />
                   <br />
