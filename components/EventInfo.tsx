@@ -26,10 +26,10 @@ const EventInfo = ({ data }: Props) => {
               TRÂN TRỌNG KÍNH MỜI
             </div>
             <div className="guest-name inner-col text-center mx-auto font-oooh-baby color-1 line-height-normal">
-              {data.to + ' ' + data.name}
+              {data.name}
             </div>
             <div className="guest-subtitle inner-col text-center mx-auto font-para color-1 line-height-normal">
-              Tới dự bữa tiệc chung vui cùng gia đình chúng tôi
+              {data.to}
             </div>
             <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
               --------------------------

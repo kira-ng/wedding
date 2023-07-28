@@ -43,7 +43,7 @@ const GuestPage = ({ params: { id } }: Props) => {
   const [guests, loading, error] = useDocument(doc(db, 'guests', id))
 
   if (loading) {
-    return <>Loading</>
+    return <LoadingDefault />
   }
 
   if (guests?.exists()) {
@@ -63,7 +63,6 @@ const GuestPage = ({ params: { id } }: Props) => {
         <Album />
         <SaveTheDate />
         <Footer />
-        <Donate />
       </LazyMotion>
     </div>
   )
