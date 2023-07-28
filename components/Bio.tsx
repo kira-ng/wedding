@@ -115,9 +115,8 @@ const Bio = () => {
               </div>
               <div className="story-content color-2 font-para line-height-normal">
                 <p>
-                  Khi mình đang tận hưởng cuộc sống độc thân một cách tự do.
-                  Nhưng số phận đã dành cho mình một điều không thể ngờ tới -
-                  một người đàn ông xuất hiện và bắt đầu theo đuổi mình bằng sự
+                  Khi mình đang tận hưởng cuộc sống độc thân một cách tự do. Thì anh xuất hiện
+                  bắt đầu theo đuổi mình bằng sự
                   chân thành không chỉ qua lời nói mà còn qua những hành động ,
                   cử chỉ đầy ý nghĩa.
                   <br />
