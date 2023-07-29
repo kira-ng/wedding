@@ -48,7 +48,13 @@ const EventInfo = ({ data }: Props) => {
           <p>12 . 08 . 2023</p>
         </div>
         <div className="place event-place inner-col mx-auto text-center font-para color-1 line-height-normal">
-          KHÁCH SẠN DRAGON STYLE, SỐ 25 ĐƯỜNG LÊ LỢI, TP. SẦM SƠN, THANH HÓA
+          <a
+            href="https://goo.gl/maps/X4vJVvJFyh2cDVKU6"
+            target="_blank"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            KHÁCH SẠN DRAGON STYLE, SỐ 25 ĐƯỜNG LÊ LỢI, TP. SẦM SƠN, THANH HÓA
+          </a>
         </div>
         <div className="maps inner-col mx-auto text-center font-para color-1 line-height-normal">
           <a href="https://goo.gl/maps/X4vJVvJFyh2cDVKU6" target="_blank">
