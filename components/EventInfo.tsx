@@ -2,6 +2,8 @@ import Image from 'next/image'
 
 // Image loading
 import paper_texture from '../public/images/theme/paper-texture.jpg'
+import marker from '../public/images/theme/marker.gif'
+
 
 type Props = {
   data?: any
@@ -37,6 +39,9 @@ const EventInfo = ({ data }: Props) => {
           </>
         )}
         <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
+          Được tổ chức vào hồi <strong>11h00</strong>
+        </div>
+        <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
           THỨ BẢY
         </div>
         <div className="datetime inner-col text-center mx-auto font-para color-1 line-height-normal">
@@ -44,6 +49,11 @@ const EventInfo = ({ data }: Props) => {
         </div>
         <div className="place event-place inner-col mx-auto text-center font-para color-1 line-height-normal">
           KHÁCH SẠN DRAGON STYLE, SỐ 25 ĐƯỜNG LÊ LỢI, TP. SẦM SƠN, THANH HÓA
+        </div>
+        <div className="maps inner-col mx-auto text-center font-para color-1 line-height-normal">
+          <a href="https://goo.gl/maps/X4vJVvJFyh2cDVKU6" target="_blank">
+            <Image src={marker} alt="" />
+          </a>
         </div>
       </div>
     </section>
