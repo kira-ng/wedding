@@ -39,10 +39,10 @@ const EventInfo = ({ data }: Props) => {
           </>
         )}
         <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
-          Được tổ chức vào hồi <strong>11h00</strong>
+          Lễ Thành Hôn được tổ chức vào hồi
         </div>
         <div className="date inner-col text-center mx-auto font-para color-1 line-height-normal">
-          THỨ BẢY
+          <strong>11H00</strong> | THỨ BẢY
         </div>
         <div className="datetime inner-col text-center mx-auto font-para color-1 line-height-normal">
           <p>12 . 08 . 2023</p>
