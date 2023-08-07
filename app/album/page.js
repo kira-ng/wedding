@@ -41,11 +41,11 @@ import album_171 from '../../public/images/30x30/17.1.jpg'
 import album_172 from '../../public/images/30x30/17.2.jpg'
 import Image from 'next/image'
 
-const DemoBook = (props: any) => {
+const DemoBook = (props) => {
   const [page, setPage] = useState()
   const [totalPage, setTotalPage] = useState()
 
-  const onPage = (e: any) => {
+  const onPage = (e) => {
     setPage(e.data)
   }
   

@@ -63,6 +63,7 @@ const GuestPage = ({ params: { id } }: Props) => {
         <Album />
         <SaveTheDate />
         <Footer />
+        <Donate />
       </LazyMotion>
     </div>
   )
