@@ -48,16 +48,17 @@ const DemoBook = (props) => {
   const onPage = (e) => {
     setPage(e.data)
   }
-  
 
   return (
-    <div style={{
-      display: "flex",
-      height: "100dvh",
-      alignItems: "center",
-      overflow: "hidden",
-      backgroundColor: "#465a3d"
-    }}>
+    <div
+      style={{
+        display: 'flex',
+        height: '100dvh',
+        alignItems: 'center',
+        overflow: 'hidden',
+        backgroundColor: '#465a3d',
+      }}
+    >
       <HTMLFlipBook
         width={550}
         height={550}
@@ -69,42 +70,42 @@ const DemoBook = (props) => {
         maxShadowOpacity={0.5}
         showCover={true}
       >
-        <Image src={font} placeholder="blur" alt="" />
-        <Image src={album_11} placeholder="blur" alt="" />
-        <Image src={album_12} placeholder="blur" alt="" />
-        <Image src={album_21} placeholder="blur" alt="" />
-        <Image src={album_22} placeholder="blur" alt="" />
-        <Image src={album_31} placeholder="blur" alt="" />
-        <Image src={album_32} placeholder="blur" alt="" />
-        <Image src={album_41} placeholder="blur" alt="" />
-        <Image src={album_42} placeholder="blur" alt="" />
-        <Image src={album_51} placeholder="blur" alt="" />
-        <Image src={album_52} placeholder="blur" alt="" />
-        <Image src={album_61} placeholder="blur" alt="" />
-        <Image src={album_62} placeholder="blur" alt="" />
-        <Image src={album_71} placeholder="blur" alt="" />
-        <Image src={album_72} placeholder="blur" alt="" />
-        <Image src={album_81} placeholder="blur" alt="" />
-        <Image src={album_82} placeholder="blur" alt="" />
-        <Image src={album_91} placeholder="blur" alt="" />
-        <Image src={album_92} placeholder="blur" alt="" />
-        <Image src={album_101} placeholder="blur" alt="" />
-        <Image src={album_102} placeholder="blur" alt="" />
-        <Image src={album_111} placeholder="blur" alt="" />
-        <Image src={album_112} placeholder="blur" alt="" />
-        <Image src={album_121} placeholder="blur" alt="" />
-        <Image src={album_122} placeholder="blur" alt="" />
-        <Image src={album_131} placeholder="blur" alt="" />
-        <Image src={album_132} placeholder="blur" alt="" />
-        <Image src={album_141} placeholder="blur" alt="" />
-        <Image src={album_142} placeholder="blur" alt="" />
-        <Image src={album_151} placeholder="blur" alt="" />
-        <Image src={album_152} placeholder="blur" alt="" />
-        <Image src={album_161} placeholder="blur" alt="" />
-        <Image src={album_162} placeholder="blur" alt="" />
-        <Image src={album_171} placeholder="blur" alt="" />
-        <Image src={album_172} placeholder="blur" alt="" />
-        <Image src={back} placeholder="blur" alt="" />
+        <Image src={font} placeholder="blur" alt="" loading="eager" />
+        <Image src={album_11} placeholder="blur" alt="" loading="eager" />
+        <Image src={album_12} placeholder="blur" alt="" loading="eager" />
+        <Image src={album_21} placeholder="blur" alt="" priority={true} />
+        <Image src={album_22} placeholder="blur" alt="" priority={true} />
+        <Image src={album_31} placeholder="blur" alt="" priority={true} />
+        <Image src={album_32} placeholder="blur" alt="" priority={true} />
+        <Image src={album_41} placeholder="blur" alt="" priority={true} />
+        <Image src={album_42} placeholder="blur" alt="" priority={true} />
+        <Image src={album_51} placeholder="blur" alt="" priority={true} />
+        <Image src={album_52} placeholder="blur" alt="" priority={true} />
+        <Image src={album_61} placeholder="blur" alt="" priority={true} />
+        <Image src={album_62} placeholder="blur" alt="" priority={true} />
+        <Image src={album_71} placeholder="blur" alt="" priority={true} />
+        <Image src={album_72} placeholder="blur" alt="" priority={true} />
+        <Image src={album_81} placeholder="blur" alt="" priority={true} />
+        <Image src={album_82} placeholder="blur" alt="" priority={true} />
+        <Image src={album_91} placeholder="blur" alt="" priority={true} />
+        <Image src={album_92} placeholder="blur" alt="" priority={true} />
+        <Image src={album_101} placeholder="blur" alt="" priority={true} />
+        <Image src={album_102} placeholder="blur" alt="" priority={true} />
+        <Image src={album_111} placeholder="blur" alt="" priority={true} />
+        <Image src={album_112} placeholder="blur" alt="" priority={true} />
+        <Image src={album_121} placeholder="blur" alt="" priority={true} />
+        <Image src={album_122} placeholder="blur" alt="" priority={true} />
+        <Image src={album_131} placeholder="blur" alt="" priority={true} />
+        <Image src={album_132} placeholder="blur" alt="" priority={true} />
+        <Image src={album_141} placeholder="blur" alt="" priority={true} />
+        <Image src={album_142} placeholder="blur" alt="" priority={true} />
+        <Image src={album_151} placeholder="blur" alt="" priority={true} />
+        <Image src={album_152} placeholder="blur" alt="" priority={true} />
+        <Image src={album_161} placeholder="blur" alt="" priority={true} />
+        <Image src={album_162} placeholder="blur" alt="" priority={true} />
+        <Image src={album_171} placeholder="blur" alt="" priority={true} />
+        <Image src={album_172} placeholder="blur" alt="" priority={true} />
+        <Image src={back} placeholder="blur" alt="" priority={true} />
       </HTMLFlipBook>
     </div>
   )
